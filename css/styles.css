@@ -1,0 +1,44 @@
+
+*{outline: 1px solid red;}
+body {
+    font-family: 'Roboto', sans-serif;
+  
+
+    background-color: #e8d3fa !important;
+    min-height: 100vh;
+
+}
+
+.bg-personal{
+    background-color :#984bd7 !important;
+    
+  }
+
+
+.navbar-brand {
+    text-decoration:none;
+    color:#ffffff !important;
+}
+.nav-link {
+    text-decoration:none;
+    color:#ffffff !important;
+}
+.btn{
+    text-decoration:none;
+    color:#ffffff !important;
+}
+
+
+img{
+    width: 300px;
+}
+.card-body{
+    color: #984bd7 !important;
+}
+#inf-personal{
+    margin-top: 16px;
+}
+.card {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
