@@ -23,13 +23,13 @@
                              <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                            <a class="navbar-brand" href="#">Información Personal</a>
+                            <a class="navbar-brand" href="#inf-personal">Información Personal</a>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                                    <a id="contacto" class="nav-link active" aria-current="page" href="#cont-form">Contacto</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#piedepagina">ir al Pie de pagina</a>
+                                    <a class="nav-link" href="#piedepagina">Ver Pie de pagina</a>
                                 </li>
                            </ul>
                             <!-- Button trigger modal -->
@@ -47,7 +47,7 @@
                                         </div>
                                         <div class="modal-body">
                                             <p><a href="https://gitlab.com/gladisbrites83/jugueteria.git" target="_blank" class="tooltip-test" title="Tooltip">https://gitlab.com/gladisbrites83/jugueteria.git</a></p> 
-                                            <p><a href="https://gitlab.com/gladisbrites83/jugueteria.git" target="_blank"class="tooltip-test" title="Tooltip">https://gitlab.com/gladisbrites83/jugueteria.git</a></p>
+                                            <p><a href="https://github.com/gladisbrites/Proyecto-final-Curriculum-Vitae-.git" target="_blank"class="tooltip-test" title="Tooltip">https://github.com/gladisbrites/Proyecto-final-Curriculum-Vitae-.git</a></p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -96,7 +96,7 @@
                         <div> 
                             <h3><b> Contacto: </b></h3>   
                             <ul> 
-                                <li> <b> E-mail: </b> gladisbrites83@gmail.com</li>
+                                <li> <p> <i class="fa-solid fa-envelope"></i> <b> E-mail: </b> gladisbrites83@gmail.com</p></li>
                                 <li> <p><i class="fa-solid fa-phone"></i><b> Telefono: </b> +54 3754413370</p></li>
                             </ul>
                         </div>
@@ -122,7 +122,7 @@
                         </div>
                 </div>
                 <div class="col">  
-                    <h3>Formación Académica</h3>
+                    <h3><p> <i class="fa-solid fa-graduation-cap"></i>  Formación Académica</p></h3>
                     <ul>
                             <li><b> Secundario:</b> Escuela Normal Superior N°1 De Leandro N Alem Mnes
                                 Titulo obtenido: Bachiller con Orientacion Docente.
@@ -143,24 +143,42 @@
                                 </ul>
                         </ul>                   
                     </div>
+       
+        </div>
+        <div class="row justify-content-center" id="cont-form" style="display: none;">
+            <div class="col-md-6"> 
+                <section class="form-contact">
+                    <div id="avioncito">
+                        <span>
+                            <i class="fa-solid fa-paper-plane" id="avion"></i>
+                        </span>
+                    </div>
+                    <div> 
+                        <form id="formulario-contacto" name="formulario_contacto" action="" class="contact" method="">
+                            <label for="nombres">Nombres</label>
+                            <input type="text" name="nombres" id="nombres" required>
+                            <label for="correo">e-mail</label>
+                            <input type="email" name="correo" id="correo" required>
+                            <label for="mensaje">mensaje</label>
+                            <textarea  name="mensaje" id="mensaje"required></textarea>
+                            <input type="submit" value="Enviar" id="enviarCorreo">
+                        </form>
+                    </div>
+             </section>   
+            </div>
         </div>
    </div>
-        
+
+      
     <div id="piedepagina" class="row bg-dark text-white text-truncate"  style="height: 60px;">
         <div class="col my-auto px-3 px-sm-5 d-flex justify-content-center">
-            CV-Proyecto Integrador &copy; 2023
+            Curriculum Vitae-Proyecto Final Integrador &copy; 2023 
         </div> 
     </div>
 </div>
-    <script src="jcs.js"></script>
+    <script src="js/jsc.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"> </script>
     <script src="https://kit.fontawesome.com/fbbc59fd53.js" crossorigin="anonymous"></script>
 </body>
 </html>
 
-
-
-
-    
-
-   

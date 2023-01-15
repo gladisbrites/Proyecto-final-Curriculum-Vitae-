@@ -1,5 +1,5 @@
 
-*{outline: 1px solid red;}
+/*{outline: 1px solid red;}*/
 body {
     font-family: 'Roboto', sans-serif;
   
@@ -41,4 +41,66 @@ img{
 .card {
     margin-top: 16px;
     margin-bottom: 16px;
+}
+
+.fa {
+font-size: 14px;
+}
+.fa-solid {
+    font-size: 14px;
+    }
+.form-contact{
+margin-top: 10px;
+box-shadow: 7px 13px 37px rgba(0,0,0,.8);
+}
+
+#avioncito{
+    background-color: #984bd7;
+    overflow: hidden;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    display: block;
+}
+#avion{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px !important;
+}
+.contact{
+   padding: .8rem;
+   overflow: hidden; 
+   color: gray;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.contact label, .contact input, .contact textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color:#e8d3fa ;
+}
+.contact label{
+    font-weight: 700;
+}
+.contact input:not([type='submit']), .contact textarea{
+    border: none;
+    border-bottom: 2px solid #984bd7; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: gray;
+
+}
+.contact textarea{
+    min-height: 100px;
+}
+input[type='submit']{
+    padding: 10px;
+    border: none;
+    background-color: #984bd7;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+
 }
