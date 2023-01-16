@@ -1,5 +1,5 @@
 
-/*{outline: 1px solid red;}*/
+*{outline: 1px solid red;}*
 body {
     font-family: 'Roboto', sans-serif;
   
@@ -31,6 +31,10 @@ body {
 
 img{
     width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+    padding-left: 10px;
 }
 .card-body{
     color: #984bd7 !important;
