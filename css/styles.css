@@ -28,6 +28,8 @@ body {
     color:#ffffff !important;
     margin-right: 10px;
     margin-bottom: 5px;
+   background-color: #984bd7 !important;
+   border-color: #984bd7 !important;
 }
 
 
@@ -109,4 +111,7 @@ input[type='submit']{
     font-size: 22px;
     cursor: pointer;
 
+}
+#dropdownMenuButton1{
+    background-color: #984bd7;
 }
